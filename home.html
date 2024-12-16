@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Indian Airlines</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            overflow-x: hidden;
+            background-color: #f8f9fa;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #003b63; /* Original dark blue */
+            padding: 15px 30px;
+            color: #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .header img {
+            height: 50px;
+            width: auto;
+            margin-right: 15px;
+        }
+
+        .header h1 {
+            font-size: 2rem; /* Reduced font size */
+            font-family: 'Georgia', serif;
+            color: #fff;
+        }
+
+        /* Navbar */
+        .navbar-inverse {
+            background-color: #003b63;
+            border: none;
+            border-radius: 0;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-inverse .navbar-brand {
+            color: #fff !important;
+            font-weight: bold;
+        }
+
+        .navbar-inverse .navbar-nav > li > a {
+            color: #fff !important;
+        }
+
+        .navbar-inverse .navbar-nav > li > a:hover {
+            background-color: #0078d7;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        /* Background */
+        .background {
+            background:
+                        url('https://i.pinimg.com/736x/cc/e3/3d/cce33d0f4824082f13a453b946189c3f.jpg') 
+                        no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column; /* Stack welcome text and card vertically */
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: black;
+        }
+
+        .background h3 {
+            font-size: 3rem; /* Reduced font size for welcome text */
+            margin-bottom: 20px; /* Add spacing below the welcome text */
+            color: #003b63; /* Original dark blue color */
+            font-weight: bold;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95); /* Slightly opaque for depth */
+            padding: 30px; /* Adjust padding */
+            border-radius: 20px; /* Softer rounded edges */
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4); /* Stronger shadow for emphasis */
+            max-width: 600px; /* Set appropriate max width */
+            width: 80%; /* Responsive sizing */
+            text-align: center; /* Center-align content */
+        }
+
+        .card p {
+            font-size: 2rem; /* Reduced font size for card text */
+            line-height: 1.5; /* Adjust line height for readability */
+            color: #333;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #003b63;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 1rem;
+            box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://files.oaiusercontent.com/file-3tCjTJiUXMdZTcqJuRMLu8?se=2024-12-03T04%3A08%3A39Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D04943cdc-6b6f-4778-8b0a-f7843c2b6c29.webp&sig=fHk/wQDVO%2BM4enyNumBf/Of/fcLoHasI%2B47lB5jGc/g%3D" alt="Indian Airlines Logo">
+        <h1>INDIAN AIRLINES</h1>
+    </div>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Indian Airlines</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./contacts.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="background">
+        <h3>Welcome to Indian Airlines</h3>
+        <div class="card">
+            <p>Fly with us by booking tickets that will let you explore the world with ease and comfort!</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Indian Airlines. All rights reserved.
+    </footer>
+</body>
+</html>
+
+
+
+
